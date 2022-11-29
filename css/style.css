@@ -987,8 +987,8 @@ h1, h2, h3, h4, h5, h6{
 	height: auto;
 	clear: both;
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	justify-content: space-between;
 }
 .waxon_tm_main_title .title h3{
 	text-transform: uppercase;
@@ -1845,11 +1845,15 @@ body.modal{
 	float: left;
 	position: relative;
 	margin-bottom: 150px;
-	padding-top: 205px;
+	padding-top: 105px;
 }
 .waxon_tm_contact .contact_inner{
 	width: 100%;
 	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	clear: both;
 	float: left; 
 }
@@ -1858,6 +1862,7 @@ body.modal{
 	height: auto;
 	clear: both;
 	display: flex;
+	justify-content: center;
 	padding-top: 43px;
 }
 .waxon_tm_contact .desc{
@@ -1869,7 +1874,7 @@ body.modal{
 	font-style: italic;
 }
 .waxon_tm_contact .contact_inner .left{
-	width: 50%;
+	width: 70%;
 	padding-right: 25px;
 }
 .waxon_tm_contact .fields{
