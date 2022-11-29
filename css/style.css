@@ -1850,20 +1850,20 @@ body.modal{
 .waxon_tm_contact .contact_inner{
 	width: 100%;
 	height: auto;
+	clear: both;
+	float: left; 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	clear: both;
-	float: left; 
 }
 .waxon_tm_contact .contact_inner .wrapper{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
-	justify-content: center;
 	padding-top: 43px;
+	justify-content: center;
 }
 .waxon_tm_contact .desc{
 	max-width: 50%;
